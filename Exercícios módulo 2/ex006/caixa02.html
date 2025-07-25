@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            color: #343a40;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            margin: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        header > h1 {
+            margin:0px;
+            padding-top: 10px;
+            color: #343a40;
+        }
+
+        nav {
+            background-color: dimgray;
+            margin-top: 10px;
+            margin-right: 550px;
+            margin-left: 550px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding-top: 5px;
+            box-shadow: 0px -1px 0px 1px rgb(91, 91, 91),
+                        1px 0px 0px 0px rgb(91, 91, 91), 
+                        -1px 0px 0px 0px rgb(91, 91, 91); 
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            color: #343a40
+        }
+
+        main {
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        #assuntos {
+            margin: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article > aside {
+            background-color: #A5A5A5;
+        }
+
+        footer {
+            background-color: black;
+            color: #A5A5A5;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer > p {
+            padding: 5px;
+        }
+
+        .bola {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, ipsa doloremque. Eaque in ducimus excepturi quos? Tempore dicta qui reiciendis cumque, ullam quo ipsum, assumenda minima eveniet vitae consequatur accusantium.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>  
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vito</p>
+    </footer>
+    <div class="bola">
+
+    </div>
+</body>
+</html>

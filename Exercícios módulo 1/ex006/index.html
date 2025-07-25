@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+        <h2>Código-fonte</h2>
+         <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. <br> Nesse caso o comando foi envelopado com a tag "&lt;code&gt;", é um tipo de fonte monoespaçada, facilida em leitura de códigos, por exemplo, por isso o nome code.</p>
+         <h2>Código-fonte + Pré-formatação</h2>
+        <pre><code>num=int(input('Digite um número: '))
+if num % 2 == 0:
+    print('O número {num} é par')
+else:
+    print('O número {num} é ímpar')
+print('Fim do programa')
+            </code></pre>
+        <h2>Citações simples</h2>
+         <p>Como diria meu pai: <q>o computador é um burro muito rápido</q>. Preferível usar a tag "&lt;q&gt;" nas citações porque dão sentido, usar " normais quando não é citação. "q" vem de quote</p>
+        <h2>Citações completas</h2>
+         <p>Segundo Jeff Noble, em seu livro HTML para Leigos:</p>
+         <blockquote cite="https://books.google.com.br/books?id=2b4gAQAAIAAJ"><!--visualmente o cite não interfere, mas os mecanismos de busca, por exemplo, entendem que a página está referenciando-->
+            <em><q>A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto</q></em>
+         </blockquote>
+         <p>Tag &lt;blocknote&gt; para a formatação espaçada, característica de citações completas.
+         <br>Tag &lt;em&gt; para deixar em itálico.
+         <br>Tag &lt;q&gt; para as aspas de citação.</p>
+         <h2>Abreviações</h2>
+         <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Shift">CSS</abbr>. Estou adorando!<br>Tag para abreviação é &lt;abbr title="Significado da sigla"&gt;SIGLA&lt;/abbr&gt;</p>
+         <h2>Texto invertido</h2>
+         <p><bdo dir="rtl">Estou aprendendo a criar coisas em html.</p>
+         <p>Tags mais inúteis: "&lt;bdo dir="ltr"&lt;" e "&lt;bdo dir="rtl"&lt;" Left to right e Right to left.<br> O do exemplo foi RTL porque inverte, LTR "desinverteria" no caso.</p>
+</body>
+</html>

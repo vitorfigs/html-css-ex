@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="shortcut icon" href="ícone/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<main>
+    <h1> <span style="display: inline-block; transform: scaleX(-1);">&#10549;</span>
+        Vamos ver sobre as listas aê &#127881;&#127881;
+    </h1>
+
+    <!--Nesse h1 eu usei um pouco de CSS só pra inverter o emoji da seta. O span seleciona uma parte, no caso o código que representa a seta. O style é onde o CSS vai ser usado para mudar o estilo. display: inline-block para a seta ser entendida como um bloco que pode ser mudada visualmente de forma *GEOMÉTRICA*. O transforma: scaleX(-1) é o que inverte a seta.-->
+
+    <h2> Lista usando tags &lt;ol&gt; e &lt;ul&gt;</h2>
+        <ol type="1" start="1">
+            <li> Frutas
+                <ul> <!--O chatgpt pontuou: "o atributo type para <ul> não é padrão no HTML5, embora funcione em vários navegadores. Se quiser algo mais robusto, recomenda-se usar CSS para controlar os marcadores.""-->
+                    <li> Maçã</li>
+                    <li> Banana</li>
+                    <li> Laranja</li>
+                </ul>
+            </li>
+            <li> Industrializados
+                <ul>
+                    <li> Refrigerantes</li>
+                    <li> Biscoitos</li>
+                    <li> Chocolates</li>
+                </ul>
+            </li>
+            <li> Carnes
+                <ul>
+                    <li> Frango</li>
+                    <li> Carne Bovina</li>
+                    <li> Peixes</li>
+                </ul>
+            </li>           
+        </ol>
+        <figure>
+        <img src="imagens/código.png" alt="Print do código HTML das listas" height="350">
+        <figcaption>Este é o código utilizado para fazer esse site.
+            <p>OBS: tirei o type da tag &lt;ul&gt;, pois aparentemente é hábito antigo..</p>
+        </figcaption>
+        </figure>
+</main>
+        <br>
+        <h2>Lista de Definições</h2>
+        <dl>
+            <dt><strong>HTML</strong></dt>
+            <dd>É a linguagem de marcação usada para estruturar o conteúdo da web.</dd>
+            <dt><strong>CSS</strong></dt>
+            <dd>É a linguagem usada para estilizar o conteúdo HTML.</dd>
+            <dt><strong>JavaScript</strong></dt>
+            <dd>É a linguagem de programação usada para adicionar interatividade às páginas web.</dd>
+        </dl>
+        <p>. Para criar a lista deve-se usar a tag "&lt;dt&gt;", ao invés de "&lt;ol&gt;" ou "&lt;ul&gt;"
+        <br>. Dentro da lista usa-se a tag "&lt;dt&gt;" para definir o item e a tag "&lt;dd&gt;" para a descrição desse item (usei a tag &lt;STRONG&gt; para deixar o item mais destacado).</p>
+
+        <figure>
+        <img src="imagens/código-lista-def.png" alt="Print do código HTML das listas" height="223">
+        <figcaption>Este é o código utilizado para fazer a lista (adicionei ela depois).</figcaption>
+        </figure>
+</body>
+</html>
