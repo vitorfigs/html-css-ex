@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* === Importação de fontes === */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* === Reset básico === */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* === Elementos globais === */
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Cabeçalho === */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header h1 {
+    font-family: 'Passion One', 'Winky Rough', 'Sans-serif';
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+/* === Conteúdo principal === */
+article {
+    font-family: 'Sriracha', 'Winky Rough', 'Sans-serif';
+    font-size: 3.5vw;
+}
+
+article p {
+    padding-bottom: 2em;
+}
+
+.estrofe-fundo-branco {
+    padding: 10vh 20px;
+    background-color: white;
+}
+
+.estrofe-fundo-com-imagem {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 30px 10px;
+    margin: 70px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 0px black;
+}
+
+/* === Backgrounds com imagem === */
+#background2 {
+    background-color: black;
+    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+#background5 {
+    background-color: black;
+    background: url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+/* === Rodapé === */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
