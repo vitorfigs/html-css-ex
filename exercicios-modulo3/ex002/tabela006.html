@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        border-collapse: collapse;
+        position: relative;
+    }
+
+    caption {
+        font-size: 1.2em;
+        font-weight: bolder;
+        padding: 20px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(228, 228, 228);
+    }
+
+    tr:nth-child(odd) {
+    background-color: white;
+}
+
+    td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: inherit;
+}
+
+    div#container {
+        overflow-x: auto;
+    }
+</style>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate numquam animi aliquid accusantium tenetur, possimus maxime, ipsum officia error aliquam at tempore inventore illum molestias beatae ex dignissimos. Quisquam, amet.</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+        <td>Arroz</td>
+            <td>12</td><td>07</td><td>15</td><td>08</td><td>23</td><td>11</td>
+            <td>09</td><td>17</td><td>14</td><td>19</td><td>06</td><td>10</td>
+        </tr>
+        <tr>
+            <td>Feijão</td>
+            <td>05</td><td>13</td><td>09</td><td>14</td><td>10</td><td>22</td>
+            <td>08</td><td>18</td><td>06</td><td>21</td><td>12</td><td>11</td>
+        </tr>
+        <tr>
+            <td>Macarrão</td>
+            <td>17</td><td>11</td><td>13</td><td>09</td><td>15</td><td>08</td>
+            <td>10</td><td>14</td><td>07</td><td>19</td><td>06</td><td>12</td>
+        </tr>
+        <tr>
+            <td>Açúcar</td>
+            <td>08</td><td>15</td><td>07</td><td>16</td><td>13</td><td>09</td>
+            <td>11</td><td>20</td><td>05</td><td>12</td><td>10</td><td>14</td>
+        </tr>
+        <tr>
+            <td>Sal</td>
+            <td>10</td><td>09</td><td>08</td><td>11</td><td>07</td><td>13</td>
+            <td>06</td><td>12</td><td>14</td><td>15</td><td>05</td><td>09</td>
+        </tr>
+        <tr>
+            <td>Óleo</td>
+            <td>13</td><td>10</td><td>12</td><td>07</td><td>11</td><td>14</td>
+            <td>09</td><td>08</td><td>15</td><td>13</td><td>06</td><td>10</td>
+        </tr>
+        <tr>
+            <td>Café</td>
+            <td>11</td><td>12</td><td>10</td><td>09</td><td>08</td><td>13</td>
+            <td>07</td><td>15</td><td>14</td><td>16</td><td>09</td><td>11</td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
